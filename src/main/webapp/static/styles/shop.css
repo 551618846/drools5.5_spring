@@ -1,0 +1,313 @@
+body {
+	line-height: 1.5em;
+	background: #fff;
+	color: #454545;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+fieldset {
+	border: 1px
+	solid #ff9900;
+	color: #CC3300;
+	font-size: 12px;
+	text-align: center;
+
+}
+
+legend {
+	margin: 0;
+	padding: 8px;
+	font: bold 12pt Arial, Sans-Serif;
+	letter-spacing: -1px;
+	margin-bottom: 5px;
+	color: #ff9900;
+	background: inherit;
+}
+
+p {
+	margin: 0 0 5px 0;
+}
+
+a {
+	color: #E0691A;
+	background: inherit;
+}
+
+a:hover {
+	color: #6C757A;
+	background: inherit;
+}
+
+h1 {
+	font: bold 14pt Arial;
+	letter-spacing: -1px;
+	padding: 7px 0 0 8px;
+	margin: 0;
+}
+
+h1 a, h2 a {
+	text-decoration: none;
+}
+
+h1 a:hover, h2 a:hover {
+	color: #FF6600;
+	background: inherit;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font: bold 8pt Arial, Sans-Serif;
+	letter-spacing: -1px;
+	margin-bottom: 5px;
+	color: #000;
+	background: inherit;
+}
+
+.dark {
+	color: #737373;
+	background: inherit;
+	font-weight: bold;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.content {
+	margin: 0 auto;
+	width: 780px;
+	padding: 10px;
+}
+
+/*head*/
+.header {
+	height: 55px;
+	background: #eee;
+	color: #808080;
+	margin: 3px 0;
+	padding: 10px 0 0 0;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+}
+
+.logo {
+	margin-bottom: 20px;
+}
+
+.bar_hint {
+	font-size: 10pt;
+	width: 280px;
+	color: #FFF;
+	background: inherit;
+}
+
+.bar {
+	clear: both;
+	font-size: 10pt;
+	height: 30px;
+	color: #FFF;
+	background: #FF9148;
+	margin: 0 0 0 0;
+}
+
+.bar li {
+	margin: 0;
+	padding: 7px 12px 5px 12px;
+	color: #FFEADC;
+	background: #FF9148;
+	float: left;
+}
+
+.bar li.active {
+	background: #E0691A url( images/bar.gif ) no-repeat center top;
+	color: #fff;
+	font-weight: bold;
+	padding: 7px 10px 6px 10px;
+}
+
+.bar li a {
+	font-weight: bold;
+	color: #FFF;
+	background: inherit;
+	text-decoration: none;
+}
+
+.bar li a:hover {
+	color: #E0691A;
+	background: inherit;
+}
+
+.search_field {
+	background: #fff url( images/searchbg.gif ) no-repeat center;
+	color: #808080;
+	clear: both;
+	font-weight: bold;
+	padding: 7px 25px 10px 10px;
+	margin: 5px 0;
+}
+
+.grey {
+	color: #808080;
+	font-weight: bold;
+	background: inherit;
+}
+
+.search_form {
+	margin: 0;
+	float: none;
+}
+
+input.search {
+	width: 292px;
+	border: 0;
+	background: #FFF url( images/input.gif ) no-repeat;
+	padding: 4px;
+	color: #E0691A;
+	font-weight: bold;
+}
+
+input.submit, button.submit {
+	background: #E0691A url( images/submit.gif ) no-repeat;
+	border: 0;
+	padding: 0 0;
+	width: 65px;
+	margin: 0 15px 1px 0;
+	color: #FFF;
+	font: bold 10pt Arial, Sans-Serif;
+	cursor: pointer;
+}
+
+/*content*/
+.left {
+	float: left;
+	width: 595px;
+	margin: 0 0 10px 0;
+}
+
+.right {
+	float: right;
+	width: 170px;
+	margin: 0 0 10px 0;
+}
+
+.box_top {
+	background: #F0F0F0 url( images/leftbox_top.gif ) no-repeat;
+	color: #808080;
+	height: 40px;
+	width: 159px;
+}
+
+.box_top h2 {
+	color: #808080;
+	background: inherit;
+	padding: 7px 0 0 5px;
+	margin: 0;
+}
+
+.box {
+	border-left: 2px solid #F0F0F0;
+	border-right: 2px solid #F0F0F0;
+	padding: 0 4px 0 7px;
+	margin: 0;
+	width: 159px;
+	color: #595959;
+	background: #FFF;
+}
+
+.box_bottom {
+	background: #FFF url( images/leftbox_bottom.gif ) no-repeat;
+	color: #000;
+	height: 13px;
+	width: 160px;
+	margin: 0 0 7px 0;
+}
+
+.article {
+	text-align: left;
+	padding: 0 5px 0 0;
+	margin-bottom: 20px;
+}
+
+img {
+	float: left;
+	margin: 0 9px 3px 0;
+}
+
+/* footer
+   ------ */
+.footer {
+	clear: both;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	margin: 0;
+	border-top: 1px solid #ccc;
+	line-height: 1.8em;
+}
+
+.footer a {
+	color: #808080;
+	background: #fff;
+}
+
+/* end footer*/
+
+/* FORMS */
+#content form.form {
+	padding: 10px;
+	margin: 20px;
+	border: 1px solid #ccc;
+}
+
+#content form input.text {
+	border: 1px solid #ddd;
+	padding: 4px;
+	margin: 5px 0 10px 0;
+}
+
+#content form textarea {
+	border: 1px solid #ddd;
+	padding: 4px;
+	margin: 5px 0 10px 0;
+}
+
+#content input.button, button.button {
+	width: 6em;
+	padding: 4px 4px 0 0;
+}
+
+#content input.button, button.viewbutton {
+	width: 20px;
+	padding: 2px 2px 0 0;
+	margin: 4px 0 7px 4px;
+}
+
+#content form label {
+	margin: 4px 20px 3px 0;
+	border: 0;
+	color: #444;
+	display: block;
+	font-weight: bold;
+}
+
+.req {
+	color: #f90;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+#content #viewTable table {
+	border-collapse: collapse
+}
+
+#content #viewTable td {
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* END Content */

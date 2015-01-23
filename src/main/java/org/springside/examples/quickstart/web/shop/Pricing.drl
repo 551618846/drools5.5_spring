@@ -1,0 +1,29 @@
+#created on: 2013-1-7
+package org.springside.bookstore.pricing
+
+#list any import classes here.
+import org.springside.examples.quickstart.entity.Order
+import org.springside.examples.quickstart.web.OrderPricer
+
+#declare any global variables here
+   global org.springside.examples.quickstart.web.OrderPricer pricer
+
+
+
+rule "discount is 90%  when more than 100RMB"
+
+    when
+        $o : Order( totalPrice >=100)
+    then
+        pricer.discount($o,90);
+
+end
+
+rule "Your Second Rule"
+    #include attributes such as "salience" here...
+    when
+        #conditions
+    then
+        #actions
+
+end
